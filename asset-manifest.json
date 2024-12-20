@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-developer-portal/static/css/main.eeeae22a.css",
+    "main.js": "/my-developer-portal/static/js/main.3667dd6f.js",
+    "static/js/453.a3f7a44a.chunk.js": "/my-developer-portal/static/js/453.a3f7a44a.chunk.js",
+    "static/media/profile.png": "/my-developer-portal/static/media/profile.0217549f4c83a3488663.png",
+    "static/media/fa-solid-900.ttf": "/my-developer-portal/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/fa-brands-400.ttf": "/my-developer-portal/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/fa-solid-900.woff2": "/my-developer-portal/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/fa-brands-400.woff2": "/my-developer-portal/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/fa-regular-400.ttf": "/my-developer-portal/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/fa-regular-400.woff2": "/my-developer-portal/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/logo.jpeg": "/my-developer-portal/static/media/logo.77dfe464c4e70cb797f2.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/my-developer-portal/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/my-developer-portal/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "index.html": "/my-developer-portal/index.html",
+    "main.eeeae22a.css.map": "/my-developer-portal/static/css/main.eeeae22a.css.map",
+    "main.3667dd6f.js.map": "/my-developer-portal/static/js/main.3667dd6f.js.map",
+    "453.a3f7a44a.chunk.js.map": "/my-developer-portal/static/js/453.a3f7a44a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeeae22a.css",
+    "static/js/main.3667dd6f.js"
+  ]
+}
