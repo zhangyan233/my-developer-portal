@@ -58,5 +58,6 @@
   "devDependencies": {
     "@types/leaflet": "^1.9.15",
     "typescript": "^5.7.2"
-  }
+  },
+  "homepage": "https://zhangyan233.github.io/my-developer-portal"
 }
