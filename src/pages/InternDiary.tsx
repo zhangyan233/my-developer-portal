@@ -10,7 +10,7 @@ const InternDiary: React.FC = () => {
       company: "Scrum Adventures",
       url: "https://scrumadventures.com",
       productUrl: "https://www.cadomitools.com",
-      companyLogo: "/intern1logo.jpeg", // 公司图片
+      companyLogo: `${process.env.PUBLIC_URL}/intern1logo.jpeg`, 
       description: `
 - Enabled seamless Jira login and automated user data import through OAuth 2.0 and API integration.
 - Deployed the product as a Forge app on Atlassian Marketplace.
@@ -19,10 +19,10 @@ const InternDiary: React.FC = () => {
 - Unified data transfer with JSON objects, improving response time by 33% and reducing memory usage by 5%.`,
       skills: `Atlassian, Django, HTML/CSS, JavaScript, PostgreSQL, WordPress, CI/CD, GitHub, Heroku, React, Node.js`,
       images: [
-        "/intern13.png",
-        "/intern14.png",
-        "/intern11.jpg",
-        "/intern12.jpg",
+        `${process.env.PUBLIC_URL}/intern13.png`,
+        `${process.env.PUBLIC_URL}/intern14.png`,
+        `${process.env.PUBLIC_URL}/intern11.jpg`,
+        `${process.env.PUBLIC_URL}/intern12.jpg`,
       ],
     },
     {
@@ -30,7 +30,7 @@ const InternDiary: React.FC = () => {
       company: "UC Irvine Donald Bren School of Information and Computer Sciences (Eye Gazy Tracking Mobile app)",
       url: "https://ics.uci.edu/",
       productUrl: "https://github.com/zhangyan233/eye-track-front/tree/sophia-branch-new",
-      companyLogo: "/intern2logo.jpeg", // 公司图片
+      companyLogo: `${process.env.PUBLIC_URL}/intern2logo.jpeg`, 
       description: `
 - Created and optimized the front-end for both iOS and Android.
 - Captured 30fps eye-tracking data alongside precise gaze coordinates.
@@ -38,26 +38,26 @@ const InternDiary: React.FC = () => {
 - Contributed to a CNN model by preprocessing data and integrating eye-only images with coordinate information.`,
       skills: `Android Studio, Gradle, Xcode, WebSocket, Multi-threading, PyTorch, OpenCV`,
       images: [
-        "/intern22.png",
-        "/intern24.png",
-        "/intern23.png",
-        "/intern21.png",
-        "/intern25.png"
+        `${process.env.PUBLIC_URL}/intern22.png`,
+        `${process.env.PUBLIC_URL}/intern24.png`,
+        `${process.env.PUBLIC_URL}/intern23.png`,
+        `${process.env.PUBLIC_URL}/intern21.png`,
+        `${process.env.PUBLIC_URL}/intern25.png`
       ],
     },
     {
       title: "Backend Developer Intern",
       company: "Wormhole Technology",
-      url: null, // 没有官网
+      url: null, 
       productUrl: "https://www.yaoyao.cool/",
-      companyLogo: null, // 没有公司图片
+      companyLogo: null, 
       description: `
 - Built the database structure and implemented robust back-end modules for member management, attendance, and payroll.
 - Developed microservices for product traceability and stage monitoring using RabbitMQ.
 - Optimized database queries and enhanced system performance.`,
       skills: `Spring Boot, MySQL, Mybatisplus, GitHub, Spring Cloud, Redis, RabbitMQ`,
       images: [
-        "intern31.png"
+        `${process.env.PUBLIC_URL}/intern31.png`
       ],
     },
   ];
@@ -87,7 +87,6 @@ const InternDiary: React.FC = () => {
       {/* Right Column */}
       <div className="w-2/3 pl-4">
         <div className="flex items-center mb-4">
-          {/* 公司 Logo 或可爱设计 */}
           {internships[selectedIntern].companyLogo ? (
             <img
               src={internships[selectedIntern].companyLogo}
