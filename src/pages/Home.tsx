@@ -2,6 +2,7 @@ import React from "react";
 import SkillChart from "../components/SkillChart";
 import ProgrammingSkillChart from "../components/ProgrammingSkillChart"; // 引入新组件
 import profilePic from "../assets/profile.png";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
@@ -72,9 +73,9 @@ const Home: React.FC = () => {
         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Get in Touch</h2>
         <p className="text-gray-700">
           Feel free to{" "}
-          <a href="/contact" className="text-blue-500 font-bold hover:underline">
+          <Link to="/contact" className="text-blue-500 font-bold hover:underline">reach out</Link>
             reach out
-          </a>{" "}
+          {" "}
           if you’d like to collaborate or just chat!<br />
           And if you're considering me as a potential hire, don’t hesitate to connect—I promise you won’t want to miss
           out on an exceptional employee!

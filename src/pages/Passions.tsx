@@ -77,7 +77,7 @@ const travelLocations: {
     images:[`${process.env.PUBLIC_URL}/travel/nanjing.jpg`,`${process.env.PUBLIC_URL}/travel/nanjing2.jpg`]
   },
   {
-    name:"Guazhou,China",
+    name:"Guangzhou,China",
     position:[23.1291,113.2644],
     images:[]
   },
