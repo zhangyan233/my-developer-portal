@@ -74,7 +74,6 @@ const Home: React.FC = () => {
         <p className="text-gray-700">
           Feel free to{" "}
           <Link to="/contact" className="text-blue-500 font-bold hover:underline">reach out</Link>
-            reach out
           {" "}
           if you’d like to collaborate or just chat!<br />
           And if you're considering me as a potential hire, don’t hesitate to connect—I promise you won’t want to miss
