@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-developer-portal/static/css/main.93f349eb.css",
-    "main.js": "/my-developer-portal/static/js/main.9808972d.js",
+    "main.js": "/my-developer-portal/static/js/main.9d1cdc58.js",
     "static/js/453.a3f7a44a.chunk.js": "/my-developer-portal/static/js/453.a3f7a44a.chunk.js",
     "static/media/profile.png": "/my-developer-portal/static/media/profile.0217549f4c83a3488663.png",
     "static/media/fa-solid-900.ttf": "/my-developer-portal/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
@@ -15,11 +15,11 @@
     "static/media/fa-v4compatibility.woff2": "/my-developer-portal/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/my-developer-portal/index.html",
     "main.93f349eb.css.map": "/my-developer-portal/static/css/main.93f349eb.css.map",
-    "main.9808972d.js.map": "/my-developer-portal/static/js/main.9808972d.js.map",
+    "main.9d1cdc58.js.map": "/my-developer-portal/static/js/main.9d1cdc58.js.map",
     "453.a3f7a44a.chunk.js.map": "/my-developer-portal/static/js/453.a3f7a44a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93f349eb.css",
-    "static/js/main.9808972d.js"
+    "static/js/main.9d1cdc58.js"
   ]
 }
