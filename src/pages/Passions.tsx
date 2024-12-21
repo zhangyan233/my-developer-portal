@@ -44,7 +44,7 @@ const travelLocations: {
   {
     name:"San Diego",
     position:[32.7157,-117.1611],
-    images:[`${process.env.PUBLIC_URL}/travel/sandiego1.JPG`,`${process.env.PUBLIC_URL}/travel/sandiego2.JPG`,`${process.env.PUBLIC_URL}/travel/sandiego3.JPG`,`${process.env.PUBLIC_URL}/travel/sandiego4.JPG`]
+    images:[`${process.env.PUBLIC_URL}/travel/sandiego1.jpg`,`${process.env.PUBLIC_URL}/travel/sandiego2.jpg`,`${process.env.PUBLIC_URL}/travel/sandiego3.jpg`,`${process.env.PUBLIC_URL}/travel/sandiego4.jpg`]
   },
   {
     name:"Las Vegas,America",
